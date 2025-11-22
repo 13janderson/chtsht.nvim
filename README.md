@@ -14,7 +14,7 @@ return {
     'nvim-telescope/telescope.nvim',
   },
   config = function()
-    require('chtsht').setup '<leader>sc'
+    require('chtsht').setup '<leader>ch'
   end,
 }
 ```
