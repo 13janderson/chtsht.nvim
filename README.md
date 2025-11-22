@@ -13,8 +13,9 @@ return {
   dependencies = {
     'nvim-telescope/telescope.nvim',
   },
+  -- Optional keymap to use, default is <leader>sc for [S]earch [C]heat
   config = function()
-    require('chtsht').setup '<leader>ch'
+    require('chtsht').setup '<leader>sc'
   end,
 }
 ```
